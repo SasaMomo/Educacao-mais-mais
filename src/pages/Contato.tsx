@@ -10,7 +10,7 @@ export default function Contato() {
       <div className="max-w-[1000px] mx-auto text-center">
         <div className="mx-auto text-center text-md sm:text-2xl rounded-md p-4 gap-y-2 flex flex-col min-h-[90vh]">
           <p className="hover:underline hover:scale-110">
-            Email: sasa.lhcl@gmail.com
+            Email: Aliar email
           </p>
           <p className="hover:underline hover:scale-110">
             Telefone: (85) 98419-5751

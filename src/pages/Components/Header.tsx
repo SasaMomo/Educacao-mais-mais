@@ -22,16 +22,14 @@ export default function Header() {
             width={80}
             height={80}
           />
+          
         </div>
         <nav className="md:flex justify-around flex-wrap hidden gap-6 items-center md:w-full mx-4 text-[18px]">
           <Link href="/" className="font-bold hover:scale-110">
             Home
           </Link>
-          <Link href="/Materias" className="font-bold hover:scale-110">
-            Matérias
-          </Link>
-          <Link href="/Depoimentos" className="font-bold hover:scale-110">
-            Depoimentos
+          <Link href="#Projetos" className="font-bold hover:scale-110">
+            Projetos
           </Link>
           <Link href="/Contato" className="font-bold hover:scale-110">
             Contato
@@ -61,13 +59,10 @@ export default function Header() {
             <Link href="/" className="font-bold w-full border-b-4 py-4">
               Home
             </Link>
-            <Link href="/" className="font-bold w-full border-b-4 p-4">
-              Matérias
+            <Link href="#Projetos" className="font-bold w-full border-b-4 p-4">
+              Projetos
             </Link>
-            <Link href="/" className="font-bold w-full border-b-4 p-4">
-              Depoimentos
-            </Link>
-            <Link href="/" className="font-bold w-full border-b-4 p-4">
+            <Link href="/Contato" className="font-bold w-full border-b-4 p-4">
               Contato
             </Link>
           </nav>
