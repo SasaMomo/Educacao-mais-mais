@@ -9,16 +9,13 @@ export default function Home() {
       <main className="flex gap-4 flex-col items-center justify-between pt-4 max-w-[1000px] mx-auto bg-[#ff000066]">
         <h1 className="font-bold text-3xl">Instituto Jovem no Trabalho</h1>
         <p className="text-lg text-center px-10">
-          Temos a intenção de entregar conteudo gratuito sobre Informática,
-          documentos Google, IA, Programação, Desenvolvimento de games. Nosso
-          primeiro protótipo esta aqui para mostrar com seria exbido esse
-          conteúdo.
+          Apresentação
         </p>
-        <div className="flex flex-wrap">
-        <p className="text-lg px-10 text-center w-full">* Avaliação curricular</p>
-        <p className="text-lg px-10 text-center w-full">*Orientação profissional</p>
-        <p className="text-lg px-10 text-center w-full">*Encamiamento</p>
-        <p className="text-lg px-10 text-center w-full">*Treinamentos gratuitos</p>
+        <div className="flex flex-wrap w-[300px]">
+        <p className="text-lg px-10 text-left w-full">*Avaliação curricular</p>
+        <p className="text-lg px-10 text-left w-full">*Orientação profissional</p>
+        <p className="text-lg px-10 text-left w-full">*Encamiamento</p>
+        <p className="text-lg px-10 text-left w-full">*Treinamentos gratuitos</p>
         </div>
         <h2 className="text-lg text-center px-9">
           Preencha nosso formulário

@@ -17,7 +17,7 @@ export default function Contato() {
           </p>
           <p className="hover:underline hover:scale-110">
             <a target="_blank" href="https://www.linkedin.com/in/lucas-sasa/">
-              Linkedin: www.linkedin.com/lucas-sasa/
+              Linkedin: Link
             </a>
           </p>
           <p className="hover:underline hover:scale-110 ">
